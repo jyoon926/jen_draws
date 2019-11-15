@@ -1,0 +1,158 @@
+* {
+  font-family: work-sans, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 14px;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header {
+  position: fixed;
+  background: white;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 100;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  width: 400px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 40px;
+}
+
+.header ul a {
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.header ul a:hover {
+  color: #a012ff;
+}
+
+.header ul .gray {
+  color: #999999;
+}
+
+.top {
+  width: 90vw;
+  margin: 240px 5vw;
+  text-align: center;
+  line-height: 1.15;
+}
+
+.top h2 {
+  font-weight: 400;
+  font-size: 1.5vw;
+}
+
+.top h1 {
+  font-weight: 400;
+  font-size: 10vw;
+}
+
+.work {
+  width: 90vw;
+  margin: 0 5vw;
+  text-align: center;
+  line-height: 1.15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.work .item {
+  background: black;
+  width: 43vw;
+  height: 43vw;
+}
+
+.text {
+  font-size: 5vw;
+  font-weight: 400;
+  text-align: center;
+  width: 90vw;
+  margin: 240px 5vw;
+}
+
+.yt {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.yt:hover {
+  color: #a012ff;
+}
+
+.vw {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.vw:hover {
+  color: #a012ff;
+}
+
+.bottom {
+  font-size: 14px;
+  text-align: center;
+  margin: 40px 0;
+  width: 162px;
+  text-decoration: none;
+  color: black;
+}
+
+.bottom:hover {
+  color: #a012ff;
+}
+/*# sourceMappingURL=styles.css.map */
